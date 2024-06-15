@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+.calculator{
+    padding: 20px;
+    background-color: #24262a;
+    border-radius: 20px;
+    box-shadow: -5.8px 5.4px rgb(109, 109, 104);
+}
+.calculator form input{
+    border:0;
+    outline: 0;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display:flex;
+    justify-content: flex-end;
+    margin:20px 0;
+    box-shadow: -1.4px -1.8px rgb(248, 248, 248) ,1.4px 1.8px rgb(248, 249, 244);
+    border-radius: 10px;
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size:45px;
+    text-shadow: -0.4px -0.8px 3px rgb(184, 184, 149), 0.8px 0.4px 2px rgb(160, 185, 223);
+  
+}
+form input.equal{
+    text-align:center;
+    flex: 1;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    width:140px;
+    color: rgb(0, 247, 255);
+    box-shadow: -1.4px -1.8px 2px skyblue ,1.4px 1.8px 2px rgb(108, 108, 105);
+}
+form input.AC,form input.DE, form input.Point, form input.Divide, form input.Multiply,form input.Subtract, form input.Addition{
+    color: rgb(0, 247, 255);
+    box-shadow: -1.4px -1.8px 2px skyblue ,1.4px 1.8px 2px rgb(108, 108, 105);
+
+}
+form input.One, form input.Two,form input.Three,form input.Four,form input.Five,form input.Six,form input.Seven,form input.Eight,form input.Nine,form input.Lkg,form input.Ukg{
+    box-shadow: -1.2px -1.2px 3.5px rgb(255, 255, 255) ,0.4px 0.8px white;
+}
+
+
+.h1{
+    display:flex;
+    justify-content: center;
+    color: rgb(44, 46, 41);
+    font-size: 20px;
+    margin-top: 20px ;
+}
